@@ -46,7 +46,7 @@
 ## Methods
 
 ### Register New User
-- **Endpoint:** `/register`
+- **Endpoint:** `users/register`
 - **Method:** POST
 - **Description:** Registers a new user in the system.
 
