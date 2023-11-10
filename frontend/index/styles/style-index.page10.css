@@ -3,21 +3,39 @@ body {
     padding: 0;
     background-color: #F9EBC7;
 }
+.dobav-vopros-conteiner {
+    display: flex;
+}
 .dobav-vopros {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 23px;
     margin: 10px;
+}
+.nazad {
+    margin-top: 17px;
+    margin-right: 80px;
+    margin-left: 10px;
 }
 .input-yslovia {
-    width: 334px;
-    height: 95px;
-    margin: 10px;
+    width: 306px;
+    height: 161px;
+    margin: 18px;
     margin-top: 10px;
+    
 }
 .variati-otveta {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #544C4C;
     text-align: center;
     width: 303px;
     height: 44px;
+    margin: 30px;
     margin-top: 58px;
-    background: gray;
+    background: #B4A2A2;
+    border-radius: 5px;
 }
 .variant-otveta-predok {
     justify-content: center;
@@ -30,8 +48,10 @@ body {
 .dobav-variant-otveta {
     width: 185px;
     height: 35px;
-    background: gray;
+    background: #B4A2A2;
+    border-radius: 5px;
 }
 .predok-dobav-variant-otveta {
+    display: flex;
     justify-content: center;
 }
