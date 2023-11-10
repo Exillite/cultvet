@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F9EBC7;
+}
+.dobav-vopros {
+    margin: 10px;
+}
+.input-yslovia {
+    width: 334px;
+    height: 95px;
+    margin: 10px;
+    margin-top: 10px;
+}
+.variati-otveta {
+    text-align: center;
+    width: 303px;
+    height: 44px;
+    margin-top: 58px;
+    background: gray;
+}
+.variant-otveta-predok {
+    justify-content: center;
+    margin: 10px;
+    align-items: center;
+}
+.input-yslov-pp {
+    justify-content: center;
+}
+.dobav-variant-otveta {
+    width: 185px;
+    height: 35px;
+    background: gray;
+}
+.predok-dobav-variant-otveta {
+    justify-content: center;
+}

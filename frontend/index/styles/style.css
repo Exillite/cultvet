@@ -14,9 +14,35 @@ body {
     align-items: center;
 }
 .nazvanie {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
     height: 72px;
     width: 333px;
     padding: 14px;
     padding-left: 14px;
-    background: grey;
+    background: #783D19;
+    color: white;
+    border-radius: 12px;
 }
+.text-upper {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #191C24;
+    width: 180px;
+    height: 61px;
+    background: #45543A;
+}
+.proidenie-ecscurs {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #191C24;
+    width: 180px;
+    height: 61px;
+    background: #5F6F52;
+}
+
