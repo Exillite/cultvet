@@ -18,8 +18,8 @@ class PassEcscursion(BaseModel):
 
 
 class PassEcscursionCreate(BaseModel):
-    user_str: str
-    ecscursion_str: str
+    user_id: str
+    ecscursion_id: str
     start_time: datetime
 
 
@@ -29,5 +29,5 @@ class PassEcscursionUpdate(BaseModel):
     correct_answers: Optional[int]
 
 
-class PassEcscursionAddPoints(BaseModel):
-    add_points: int
+class PassEcscursionAddCorrectAnswers(BaseModel):
+    add_correct_answers: int

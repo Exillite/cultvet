@@ -98,4 +98,3 @@
 ### Add Correct answer
 - **Endpoint:** `/excursionspass/{pass_id}/correctanswer`
 - **Method:** POST
-- **Description:** Creates a new excursion pass for a user.
