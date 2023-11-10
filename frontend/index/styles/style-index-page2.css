@@ -5,38 +5,47 @@ body {
 }
 .conteiner-header {
     display: flex;
-
 }
-.text-upper {
+.main-conteiner-first-page {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.text-upper {
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4);
+    text-align: center;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 16px;
     color: #191C24;
-    width: 100%;
+    width: 40%;
+    margin-left: 8%;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
     height: 61px;
     background: #45543A;
 }
-.proidenie-ecscurs {    
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.proidenie-ecscurs {
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4);
+    text-align: center;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 16px;
     color: #191C24;
-    width: 100%;
+    width: 40%;
     height: 61px;
+    margin-left: 5%;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
     background: #5F6F52;
 }
 .text-margin-top {
-    margin-top: 5%;
+    margin-top: 20px;
 }
 .text-margin-top2 {
-    margin-top: 5%;
-}
+    margin-top: 10px;
+}   
 .img-ecscursii {
     background-color: aqua;
     width: 352px;

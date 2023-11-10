@@ -34,6 +34,7 @@ body {
     justify-content: center;
 }
 .card {
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4);
     width: 95%;
     margin-top: 20px;
     height: 152px;
@@ -47,6 +48,7 @@ body {
     background: yellow;
 }
 .otvetit {
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4);
     display: flex;
     font-family: 'Inter', sans-serif;
     font-weight: 600;

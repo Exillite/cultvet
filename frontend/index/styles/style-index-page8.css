@@ -14,8 +14,12 @@ body {
     margin-top: 20px;
 }
 .audio-file {
+    box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.4);
     font-family: 'Inter', sans-serif;
     font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 20px;
     background: #5F6F52;
     text-align: center;
@@ -24,6 +28,8 @@ body {
     margin: 10px;
     height: 40px;
     margin-top: 34px;
+}
+.import {
 }  
 .dobavlenie {
     font-size: 23px;
@@ -32,8 +38,13 @@ body {
 } 
 .dobav-header {
     display: flex;
-margin-left: 17%;
+    margin-left: 17%;
 }
 .conteiner-audio-file {
     justify-content: center;
 }
+.main-all {
+    margin-top: 10px;
+    margin-left: 15%;
+
+}  

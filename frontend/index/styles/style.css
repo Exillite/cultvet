@@ -5,15 +5,12 @@ body {
 }
 .conteiner-header {
     display: flex;
-    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4);
 }
 .main-conteiner-first-page {
     margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 4px 4px rgba(0, 0, 0, 0.4);
-    border-radius: 40px;
 }
 .nazvanie {
     font-family: 'Inter', sans-serif;
@@ -27,25 +24,34 @@ body {
     background: #783D19;
     color: white;
     border-radius: 12px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4);
 }
 .text-upper {
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4);
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 16px;
     color: #191C24;
-    width: 50%;
+    width: 40%;
+    margin-left: 8%;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
     height: 61px;
     background: #45543A;
 }
 .proidenie-ecscurs {
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4);
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 16px;
     color: #191C24;
-    width: 50%;
+    width: 40%;
     height: 61px;
+    margin-left: 5%;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
     background: #5F6F52;
 }
 .text-margin-top {
@@ -55,6 +61,7 @@ body {
     margin-top: 10px;
 }
 .under-nazvanie {
+    display: flex;
     margin-left: 90%;
     margin-top: 30px;
 }
