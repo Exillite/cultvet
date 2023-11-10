@@ -40,28 +40,33 @@ body {
 .burger-margin-top {
     margin-top: 10px;
 }
-.kart-main {
-    display: flex;
+.main {
     justify-content: center;
+}
+.kart-main {
     margin-top: 20px;
+    margin-left: 12%;
 }
 .play-png  {
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
     margin-top: 20px;
-    padding: 14px;
     border-radius: 13px;
     background: #5F6F52 ;
-    width: 310  px;
+    width: 76%;
     height: 34px;
-    margin-left: 10px;
+    margin: 30px;
 }
 .player-under {
-    margin: 20px;
+    margin: 90px;
+    padding: 10px;
     margin-top: 15px;
+    margin-right: 30%;
+    margin-left: 12%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .sec-left {
     width: 66px;

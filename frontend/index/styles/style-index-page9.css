@@ -5,6 +5,9 @@ body {
 }
 .dobav-test {
     font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 23px;
     font-weight: 600;
     margin: 10px;
@@ -19,6 +22,7 @@ body {
     height: 37px;
     margin: 10px;
     margin-top: 15px;
+    margin-left: 5%;
     background: #5F6F52;
 }
 .dobav-vopros-conteiner {
@@ -31,12 +35,34 @@ body {
 .dobav-vopros1 {
     font-family: 'Inter', sans-serif;
     font-size: 21px;
+    display: flex;
     font-weight: 500;
     text-align: center;
     border-radius: 10px;
     width: 90%;
-    height: 37px;
+    height: 50px;
     margin: 10px;
     margin-top: 15px;
+    margin-left: 5%;
     background: #783D19;
+}
+.checkbox {
+ margin-left: 73%;
+}
+.checkbox-nastr {
+    width: 15px;
+    height: 15px;
+    background-color: #B99470;
+    border-radius: 5px;
+}
+.nastr1 {
+    margin-top: 14px;
+}
+.nastr2 {
+    margin-top: 14px;
+    margin-right: 9px;
+}
+.nastr3 {
+    margin-top: 14px;
+    margin-right: 9px;
 }

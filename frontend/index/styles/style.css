@@ -18,9 +18,8 @@ body {
     font-weight: 600;
     font-size: 20px;
     height: 72px;
-    width: 100%;
-    margin-left: 14px;
-    margin-right: 14px;
+    width: 80%;
+    margin: 10px;
     padding: 18px;
     padding-left: 14px;
     background: #783D19;
@@ -54,7 +53,7 @@ body {
     margin-top: 10px;
 }
 .under-nazvanie {
-    margin-left: 410px;
+    margin-left: 98%;
     margin-top: 30px;
 }
 .nazvani-conteiner {
