@@ -12,21 +12,33 @@ body {
     justify-content: center;
 }
 .karta {
-    margin-left: 89px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    width: 127px;
+    height: 47px;
     text-align: center;
     padding: 10px;
     border-radius: 5px;
     background: #45543A;
 }   
 .materials {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    width: 127px;
+    height: 47px;
     padding: 10px;
     border-radius: 5px;
     background-color: #5F6F52;
 }
 .burger {
-    margin-left: 75px;
+    margin-left: 13px;
     padding: 10px;
     background-color: #F9EBC7;
+}
+.burger-margin-top {
+    margin-top: 10px;
 }
 .kart-main {
     display: flex;
@@ -63,4 +75,12 @@ body {
     padding: 10px;
     background-color: #F9EBC7;
     text-align: center;
+    margin-right: 13px;
+    margin-left: 19px;
+}
+.sec-left-img {
+    margin-top: 25px;
+}
+.nazad-margin-top {
+    margin-top: 10px;
 }
