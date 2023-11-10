@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F9EBC7;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+.karta {
+    padding: 10px;
+    background-color: gray;
+}   
+.materials {
+    padding: 10px;
+    background-color: gray;
+}
+.burger {
+    padding: 10px;
+    background-color: #F9EBC7;
+}
+.kart-main {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.play-png  {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 14px;
+    background: grey;
+    width: 310  px;
+    height: 34px;
+    margin-left: 10px;
+}
+.player-under {
+    margin: 20px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.sec-left {
+    width: 66px;
+    height: 66px;
+    background: gray;
+    padding: 9px;
+}
