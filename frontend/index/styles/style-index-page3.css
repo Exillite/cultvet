@@ -20,24 +20,29 @@ body {
     left: 0;
     margin-top: 4px;
 }
+.conteiner-for-karta-and-materials {
+    margin-right: 2%;
+    width: 80%;
+}
 .karta {
-    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4);
     font-family: 'Inter', sans-serif;
     font-weight: 600;
+    border: 1.5px solid black;
+    border-bottom: 1.5px solid #F9EBC7;
     font-size: 17px;
     width: 127px;
     height: 47px;
     text-align: center;
     padding: 10px;
     border-radius: 5px;
-    margin-left: 10%;
-    background: #45543A;
+    margin-left: 0;
+    background: #F9EBC7;
 }   
 .materials {
-    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4);
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 17px;
+    border: 1.5px solid black;
     width: 127px;
     height: 47px;
     padding: 10px;
@@ -45,12 +50,12 @@ body {
     background-color: #5F6F52;
 }
 .burger {
-    margin-left: 13px;
+    margin-left: 0;
     padding: 10px;
     background-color: #F9EBC7;
 }
 .burger-margin-top {
-    margin-left: 10px   ;
+    margin-left: 0;
     margin-top: 10px;
 }
 .main {
@@ -103,7 +108,9 @@ body {
     border-radius: 20px;
     
 }
-
+.burder-margin-pp {
+    margin-left: 70px;
+}
 .nazad {
     padding: 10px;
     background-color: #F9EBC7;
