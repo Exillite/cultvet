@@ -5,6 +5,7 @@ body {
 }
 .dobav-vopros-conteiner {
     display: flex;
+    justify-content: center;
 }
 .dobav-vopros {
     font-family: 'Inter', sans-serif;
@@ -12,10 +13,10 @@ body {
     font-size: 23px;
     margin: 10px;
 }
-.nazad {
-    margin-top: 17px;
-    margin-right: 30%;
-    margin-left: 10px;
+.strelka-nastr {
+    position: absolute;
+    left: 0;
+    margin-top: 14px;
 }
 .input-yslovia2 {
     width: 90%;
@@ -27,6 +28,9 @@ body {
     
 }
 .variati-otveta {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -38,6 +42,11 @@ body {
     margin-top: 58px;
     background: #B4A2A2;
     border-radius: 5px;
+}
+.checkbox-nastr {
+    width: 32px;
+    height: 32px;
+    margin-left: 65%;
 }
 .variant-otveta-predok {
     justify-content: center;

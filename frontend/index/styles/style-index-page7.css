@@ -12,6 +12,12 @@ body {
     margin-left: 15px;
     font-size: 23px;
     font-weight: 600;
+
+}
+.strelka-nastr {
+    position: absolute;
+    left: 0;
+    margin-top: 5px;
 }
 .img-ecscursii {
     margin-top: 45px;

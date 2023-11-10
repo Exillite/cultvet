@@ -29,6 +29,11 @@ body {
     height: 40px;
     margin-top: 34px;
 }
+.strelka-nastr {
+    position: absolute;
+    left: 0;
+    margin-top: 5px;
+}
 .dobavlenie {
     font-size: 23px;
     font-weight: 600;
