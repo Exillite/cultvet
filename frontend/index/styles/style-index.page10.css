@@ -49,9 +49,14 @@ body {
     justify-content: center;
 }
 .dobav-variant-otveta {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #191C24;
+    text-align: center;
     width: 185px;
     height: 35px;
-    background: #B4A2A2;
+    background: #5F6F52;
     border-radius: 5px;
 }
 .predok-dobav-variant-otveta {

@@ -79,8 +79,17 @@ body {
     margin-left: 19px;
 }
 .sec-left-img {
-    margin-top: 25px;
+    margin-top: 15px;
 }
 .nazad-margin-top {
     margin-top: 10px;
+}
+.sec-left-img2 {
+    margin-top: 25px;
+}
+.card-cvadrat {
+    width: 32px;
+    height: 32px;
+    background: #B99470;
+    margin-left: 10px;
 }
