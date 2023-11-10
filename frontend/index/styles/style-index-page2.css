@@ -3,6 +3,30 @@ body {
     padding: 0;
     background-color: #F9EBC7;
 }
+.conteiner-header {
+    display: flex;
+
+}
+.text-upper {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #191C24;
+    width: 180px;
+    height: 61px;
+    background: #45543A;
+}
+.proidenie-ecscurs {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #191C24;
+    width: 180px;
+    height: 61px;
+    background: #5F6F52;
+}
 .img-ecscursii {
     background-color: aqua;
     width: 352px;
@@ -14,22 +38,30 @@ body {
     justify-content: center;
     align-items: center;
 }
+.img-ecs-pp {
+    display: flex;
+    justify-content: center;
+}
 .conteiner-ecscursia {
     display: flex;
     justify-content: start;
     margin-left: 10px;
 }
 .nazvanie {
+    font-family: 'Inter', sans-serif;
+    color: #191C24;
+    font-weight: 600;
+    font-size: 20px;
     margin-top: 18px;
 }
 .info {
+    font-family: 'Inter', sans-serif;
+    color: #191C24;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
     margin-top: 10px;
 }
 .opisanie {
     margin-top: 20px;
-}
-.knopka {
-    padding: 14px;
-    background: grey;
-    margin-top: 250px;
 }
