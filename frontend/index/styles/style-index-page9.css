@@ -3,6 +3,7 @@ body {
     padding: 0;
     background-color: #F9EBC7;
 }
+
 .dobav-test {
     font-family: 'Inter', sans-serif;
     display: flex;
@@ -18,11 +19,11 @@ body {
     font-weight: 500;
     text-align: center;
     border-radius: 10px;
-    width: 90%;
+    width: 80%;
     height: 37px;
     margin: 10px;
     margin-top: 15px;
-    margin-left: 5%;
+    margin-left: 10%;
     background: #5F6F52;
 }
 .dobav-vopros-conteiner {
@@ -39,11 +40,11 @@ body {
     font-weight: 500;
     text-align: center;
     border-radius: 10px;
-    width: 90%;
+    width: 80%;
     height: 50px;
     margin: 10px;
     margin-top: 15px;
-    margin-left: 5%;
+    margin-left: 10%;
     background: #783D19;
 }
 .checkbox {
@@ -57,13 +58,13 @@ body {
 }
 .nastr1 {
     margin-top: 14px;
-    margin-left: 7px;
+    margin-left: auto;
 }
 .nastr2 {
     margin-top: 14px;
-    margin-right: 9px;
+    margin-right: auto;
 }
 .nastr3 {
     margin-top: 14px;
-    margin-right: 9px;
+    margin-right: auto;
 }

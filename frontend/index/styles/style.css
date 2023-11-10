@@ -12,6 +12,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 40px;
 }
 .nazvanie {
     font-family: 'Inter', sans-serif;
@@ -53,7 +55,7 @@ body {
     margin-top: 10px;
 }
 .under-nazvanie {
-    margin-left: 98%;
+    margin-left: 90%;
     margin-top: 30px;
 }
 .nazvani-conteiner {
