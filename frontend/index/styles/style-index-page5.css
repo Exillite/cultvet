@@ -42,19 +42,22 @@ body {
 }
 .card2 {
     margin-top: 20px;
-    width: 322px;
+    width: 90%;
     height: 152px;
     background: yellow;
 }
 .otvetit {
+    display: flex;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 25px;
-    padding: 14px;
+    width: 90%;
+    height: 59px;
     background: #5F6F52;
     border-radius: 12px;
     justify-content: center;
+    align-items: center;
     text-align: center;
     bottom: 0;
-    margin: 10px;
+    margin: 30px;
 }
