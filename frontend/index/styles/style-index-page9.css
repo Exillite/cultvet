@@ -4,14 +4,39 @@ body {
     background-color: #F9EBC7;
 }
 .dobav-test {
+    font-family: 'Inter', sans-serif;
+    font-size: 23px;
+    font-weight: 600;
     margin: 10px;
 }
 .dobav-vopros {
-    display: flex;
-    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 10px;
     width: 303px;
     height: 37px;
     margin: 10px;
     margin-top: 15px;
-    background: gray;
+    background: #5F6F52;
+}
+.dobav-vopros-conteiner {
+    justify-content: center;
+}
+.dobav-test-conteiner {
+    display: flex;
+    justify-content: center;
+}
+.dobav-vopros1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 10px;
+    width: 303px;
+    height: 37px;
+    margin: 10px;
+    margin-top: 15px;
+    background: #783D19;
 }
