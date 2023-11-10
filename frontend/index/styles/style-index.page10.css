@@ -14,17 +14,16 @@ body {
 }
 .nazad {
     margin-top: 17px;
-    margin-right: 80px;
+    margin-right: 20%;
     margin-left: 10px;
 }
 .input-yslovia2 {
-    width: 306px;
+    width: 90%;
     height: 161px;
     margin: 18px;
     margin-top: 10px;
     background: #B4A2A2;
-    border-radius: 5px;
-    margin-left: 41px;
+    border-radius: 5px; 
     
 }
 .variati-otveta {
@@ -33,7 +32,7 @@ body {
     font-size: 20px;
     color: #544C4C;
     text-align: center;
-    width: 303px;
+    width: 90%;
     height: 44px;
     margin: 30px;
     margin-top: 58px;
@@ -54,7 +53,7 @@ body {
     font-size: 16px;
     color: #191C24;
     text-align: center;
-    width: 185px;
+    width: 40%;
     height: 35px;
     background: #5F6F52;
     border-radius: 5px;

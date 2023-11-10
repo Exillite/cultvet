@@ -51,10 +51,13 @@ body {
     font-weight: 600;
     font-size: 25px;
     color: #191C24;
-    text-align: center;
+    /* text-align: center; */
     width: 302px;
     height: 59px;
     border-radius: 12px;
     background: #5F6F52;
     margin-top: 198px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
