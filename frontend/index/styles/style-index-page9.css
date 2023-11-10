@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F9EBC7;
+}
+.dobav-test {
+    margin: 10px;
+}
+.dobav-vopros {
+    display: flex;
+    justify-content: center;
+    width: 303px;
+    height: 37px;
+    margin: 10px;
+    margin-top: 15px;
+    background: gray;
+}
