@@ -37,7 +37,11 @@ async def get_user(user_id: str):
 @router.get("/tg/{tg_id}")
 async def get_user_by_tg_id(tg_id: int):
     try:
-        return await crud.get_user_by_tg_id(tg_id)
+        u = await crud.get_user_by_tg_id(tg_id)
+        if u:
+            return {"status": 200, "user": u.to_json()}
+        else:
+            return {"status": 500}
     except Exception as e:
         print(e)
         return {"status": 500, "error": str(e)}

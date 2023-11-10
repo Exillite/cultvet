@@ -33,7 +33,9 @@ async def get_excursion(id: str):
 @router.post("/")
 async def create_excursion(excursion: EcscursionCreate):
     try:
-        return await crud.create_ecscursion(excursion)
+        e = await crud.create_ecscursion(excursion)
+        if e:
+            return {"status": 200, "ecscursion": e.to_json()}
     except Exception as e:
         print(e)
         return {"status": 500, "error": str(e)}
