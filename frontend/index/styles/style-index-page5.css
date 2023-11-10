@@ -4,10 +4,22 @@ body {
     background-color: #F9EBC7;
 }
 .header-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
     margin-left: 10px; 
 }
+.header-text-conteiner {
+    display: flex;
+    margin-top: 17px;
+    justify-content: center;
+}
 .sam-vopros {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
     margin-top: 20px;
+    margin: 10px;
 }
 .scroll {
     height: 80vh;
@@ -25,7 +37,8 @@ body {
     /* width: 100%; */
     margin-top: 20px;
     height: 152px;
-    background: blue;
+    border-radius: 13px;
+    background: #783D19;
 }
 .card2 {
     margin-top: 20px;
@@ -34,8 +47,12 @@ body {
     background: yellow;
 }
 .otvetit {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
     padding: 14px;
-    background: gray;
+    background: #5F6F52;
+    border-radius: 12px;
     justify-content: center;
     text-align: center;
     bottom: 0;
