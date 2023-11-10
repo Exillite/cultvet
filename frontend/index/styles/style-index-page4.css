@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F9EBC7;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+.karta {
+    padding: 10px;
+    background-color: gray;
+}   
+.materials {
+    padding: 10px;
+    background-color: gray;
+}
+.burger {
+    padding: 10px;
+    background-color: #F9EBC7;
+}
+.scroll {
+    height: 60vh;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center; 
+}
+.cards {
+    height: 100%;
+    margin: 10px;
+    width: 100%;
+    justify-content: center;
+}
+.card {
+    /* width: 100%; */
+    margin-top: 20px;
+    height: 152px;
+    background: blue;
+}
+.card2 {
+    margin-top: 20px;
+    width: 322px;
+    height: 152px;
+    background: yellow;
+}
+
+
+.nig-panel {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+.play-png  {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    padding: 14px;
+    background: grey;
+    width: 310  px;
+    height: 34px;
+    margin: 10px;
+}
+.player-under {
+    margin: 20px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.sec-left {
+    width: 66px;
+    height: 66px;
+    background: gray;
+    padding: 9px;
+}
