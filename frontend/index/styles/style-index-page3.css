@@ -50,9 +50,11 @@ body {
     height: 75%;
     width: 100%;
 }
+
 .kart-main {
+    position: fixed;
     margin-top: 20px;
-    margin-left: 12%;
+    margin-left: 17%;
 }
 .play-png  {
     display: flex;
