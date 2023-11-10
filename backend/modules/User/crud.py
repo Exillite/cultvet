@@ -16,6 +16,7 @@ async def get_user(id: str) -> Optional[UserModel]:
 
     return user
 
+
 async def get_user_by_tg_id(tg_id: int) -> Optional[UserModel]:
     user = await UserModel.get(tg_id=tg_id)
 
