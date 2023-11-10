@@ -50,13 +50,14 @@ body {
  margin-left: 73%;
 }
 .checkbox-nastr {
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
     background-color: #B99470;
     border-radius: 5px;
 }
 .nastr1 {
     margin-top: 14px;
+    margin-left: 7px;
 }
 .nastr2 {
     margin-top: 14px;
