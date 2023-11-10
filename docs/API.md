@@ -60,11 +60,6 @@
 - **Method:** GET
 - **Description:** Retrieves details about a user using their Telegram ID.
 
-### Update Excursion Pass
-- **Endpoint:** `/users/{user_id}`
-- **Method:** PUT
-- **Description:** Updates details of an existing user.
-
 ### Get All Excursions
 - **Endpoint:** `/excursions`
 - **Method:** GET

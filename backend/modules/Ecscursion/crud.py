@@ -81,3 +81,26 @@ async def get_all_ecscursions() -> List[EcscursionModel]:
     es = await EcscursionModel.find()
 
     return es
+
+
+async def edit_ecscursion(id: str, eu: EcscursionUpdate) -> EcscursionModel:
+    e = await EcscursionModel.get(id=id)
+    if not e:
+        raise Exception("no such excursion")
+
+    e.title = eu.title
+    e.description = eu.description
+    e.preview_img = eu.preview_img
+    e.need_time = eu.need_time
+    e.distance = eu.distance
+    e.route_url = eu.route_url
+
+    if eu.parts_ids:
+        parts = []
+        for id in eu.parts_ids:
+            parts.append(await get_ecscursion_part(id))
+        e.parts = parts
+
+    await e.update()
+
+    return e

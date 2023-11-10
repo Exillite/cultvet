@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from typing import List
+from typing import List, Optional
 
 from modules.User.schemas import User
 
@@ -78,11 +78,10 @@ class EcscursionCreate():
 
 
 class EcscursionUpdate():
-    author_id: str
     title: str
     description: str
     preview_img: str
     need_time: int
     distance: int
     route_url: str
-    parts_ids: List[str]
+    parts_ids: Optional[List[str]]

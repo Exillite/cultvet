@@ -15,6 +15,7 @@ router = APIRouter(
 async def register(uc: UserCreate):
     try:
         await crud.create_user(uc)
+        return {"status": 200}
     except Exception as e:
         print(e)
         return {"status": 500, "error": str(e)}
