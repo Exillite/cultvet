@@ -1,6 +1,5 @@
 from pydantic import BaseModel, EmailStr
 from typing import Optional, List, Dict, Any, Union
-from datetime import datetime
 from bson import ObjectId
 
 from db import db
