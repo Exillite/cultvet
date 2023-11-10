@@ -25,6 +25,9 @@ body {
     justify-content: center;
 }
 .zagruka-photo {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 19px;
     width: 298px;
     height: 30px;
     border-radius: 10px;
@@ -45,9 +48,9 @@ body {
     margin-top: 11px;
 }
 
-.input-nazvanie {
+.input-nazvanie2 {
     width: 100%;
-    background: #B4A2A2;
+    background-color: #B4A2A2;
     border-radius: 5px;
     height: 36px;
     margin: 10px;
@@ -55,8 +58,8 @@ body {
     margin-top: 20px;
     justify-content: center;
 }
-.input-opisanie {
-    background: #B4A2A2;
+.input-opisanie2 {
+    background-color: #B4A2A2;
     border-radius: 5px;
     width: 100%;
     height: 143px;
@@ -77,6 +80,9 @@ body {
     width: 100%;
 }
 .nazvanie-samo-chasti {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
     width: 100%;
     height: 41px;
     margin-top: 12px;
@@ -85,12 +91,15 @@ body {
     border-radius: 5px;
 }
 .dobavit {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
     width: 100%;
     text-align: center;
     height: 28px;
     margin-top: 12px;
     border-radius: 5px;
-    background: #B4A2A2;
+    background: #5F6F52;
 }
 .main-chast {
     width: 100%;

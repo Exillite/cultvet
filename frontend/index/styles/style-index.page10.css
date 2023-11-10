@@ -17,11 +17,14 @@ body {
     margin-right: 80px;
     margin-left: 10px;
 }
-.input-yslovia {
+.input-yslovia2 {
     width: 306px;
     height: 161px;
     margin: 18px;
     margin-top: 10px;
+    background: #B4A2A2;
+    border-radius: 5px;
+    margin-left: 41px;
     
 }
 .variati-otveta {
