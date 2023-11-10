@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F9EBC7;
+}
+.img-ecscursii {
+    background-color: aqua;
+    width: 352px;
+    height: 267px;
+    margin-top: 24px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteiner-ecscursia {
+    display: flex;
+    justify-content: start;
+    margin-left: 10px;
+}
+.nazvanie {
+    margin-top: 18px;
+}
+.info {
+    margin-top: 10px;
+}
+.opisanie {
+    margin-top: 20px;
+}
+.knopka {
+    padding: 14px;
+    background: grey;
+    margin-top: 250px;
+}

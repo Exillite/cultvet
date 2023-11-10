@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F9EBC7;
+}
+.conteiner-header {
+    display: flex;
+
+}
+.main-conteiner-first-page {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nazvanie {
+    height: 72px;
+    width: 333px;
+    padding: 14px;
+    padding-left: 14px;
+    background: grey;
+}
