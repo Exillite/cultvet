@@ -31,21 +31,22 @@ body {
     border-bottom: 1.5px solid #F9EBC7;
     font-size: 17px;
     width: 127px;
-    height: 47px;
+    height: 41px;
     text-align: center;
-    padding: 10px;
     border-radius: 5px;
     margin-left: 0;
     background: #F9EBC7;
 }   
+.material-p {
+    text-align: center;
+}
 .materials {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 17px;
     border: 1.5px solid black;
     width: 127px;
-    height: 47px;
-    padding: 10px;
+    height: 41px;
     border-radius: 5px;
     background-color: #5F6F52;
 }
