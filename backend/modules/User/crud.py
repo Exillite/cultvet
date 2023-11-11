@@ -1,7 +1,7 @@
 from typing import Optional
 
-from models import *
-from schemas import *
+from modules.User.models import *
+from modules.User.schemas import *
 
 
 async def create_user(user: UserCreate) -> UserModel:

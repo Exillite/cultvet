@@ -1,7 +1,7 @@
 from typing import List, Optional
 
-from models import *
-from schemas import *
+from modules.Ecscursion.models import *
+from modules.Ecscursion.schemas import *
 
 from modules.User.crud import *
 

@@ -66,7 +66,7 @@ class Ecscursion(BaseModel):
     parts: List[EcscursionPart]
 
 
-class EcscursionCreate():
+class EcscursionCreate(BaseModel):
     author_id: str
     title: str
     description: str
@@ -77,7 +77,7 @@ class EcscursionCreate():
     parts_ids: List[str]
 
 
-class EcscursionUpdate():
+class EcscursionUpdate(BaseModel):
     title: str
     description: str
     preview_img: str

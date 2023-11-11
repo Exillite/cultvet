@@ -48,7 +48,7 @@ async def shutdown_event():
     await close_mongo_connection()
 
 
-@app.get("/api/v0.1", description="Root endpoint", tags=['BASE'])
+@app.get("/api", description="Root endpoint", tags=['BASE'])
 async def test():
     return {"message": "Hello World!"}
 

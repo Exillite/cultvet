@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 
-import crud
-from schemas import *
+from modules.Ecscursion import crud
+from modules.Ecscursion.schemas import *
 
 router = APIRouter(
     prefix="/api/excursions",
@@ -24,7 +24,9 @@ async def get_excursions():
 async def get_excursion(id: str):
     try:
         e = await crud.get_ecscursion(id)
-        return {"ecscursion": e.to_json() if e else None}
+        if not e:
+            return {"status": 500}
+        return {"status": 200, "ecscursion": e.to_json()}
     except Exception as e:
         print(e)
         return {"status": 500, "error": str(e)}
@@ -36,6 +38,8 @@ async def create_excursion(excursion: EcscursionCreate):
         e = await crud.create_ecscursion(excursion)
         if e:
             return {"status": 200, "ecscursion": e.to_json()}
+        else:
+            return {"status": 500}
     except Exception as e:
         print(e)
         return {"status": 500, "error": str(e)}

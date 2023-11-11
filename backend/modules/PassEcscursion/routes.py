@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 
-import crud
-from schemas import *
+from modules.PassEcscursion import crud
+from modules.PassEcscursion.schemas import *
 
 router = APIRouter(
     prefix="/api/excursionspass",
