@@ -2,6 +2,10 @@ from fastapi import FastAPI
 import uvicorn
 from fastapi.middleware.cors import CORSMiddleware
 
+from modules.Files.routes import router as FilesRouter
+from modules.User.routes import router as UsersRouter
+from modules.Ecscursion.routes import router as ExcursionsRouter
+from modules.PassEcscursion.routes import router as PassExcursionsRouter
 
 app = FastAPI(
     title="CultVet",
@@ -22,6 +26,12 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+app.include_router(FilesRouter)
+app.include_router(UsersRouter)
+app.include_router(ExcursionsRouter)
+app.include_router(PassExcursionsRouter)
 
 
 @app.get("/api/v0.1", description="Root endpoint", tags=['BASE'])
