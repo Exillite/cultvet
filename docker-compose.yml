@@ -1,0 +1,45 @@
+version: "3.7"
+services:
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/conf.d:/etc/nginx/conf.d
+    networks:
+      - custom
+
+  api:
+    environment:
+      - MONGODB_URL=mongodb://mongo_db/hwh_db
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    command: uvicorn main:app --host 0.0.0.0 --reload
+    ports:
+      - "8000:8000"
+    networks:
+      - custom
+    volumes:
+      - ./backend/app:/app
+      - upload_files:/upload_files
+    depends_on:
+      - mongo_db
+
+  mongo_db:
+    image: mongo
+    ports:
+      - "27017:27017"
+    networks:
+      - custom
+    volumes:
+      - db_data:/data/db
+
+networks:
+  custom:
+    driver: bridge
+
+volumes:
+  db_data:
+  backend_data:
+  upload_files:
