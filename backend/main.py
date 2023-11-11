@@ -7,6 +7,9 @@ from modules.User.routes import router as UsersRouter
 from modules.Ecscursion.routes import router as ExcursionsRouter
 from modules.PassEcscursion.routes import router as PassExcursionsRouter
 
+from db import connect_to_mongo, close_mongo_connection
+
+
 app = FastAPI(
     title="CultVet",
     description="API for application with entarective excursions.",
@@ -32,6 +35,17 @@ app.include_router(FilesRouter)
 app.include_router(UsersRouter)
 app.include_router(ExcursionsRouter)
 app.include_router(PassExcursionsRouter)
+
+
+@app.on_event("startup")
+async def startup_event():
+    await connect_to_mongo()
+    print("Connect to mongo.")
+
+
+@app.on_event("shutdown")
+async def shutdown_event():
+    await close_mongo_connection()
 
 
 @app.get("/api/v0.1", description="Root endpoint", tags=['BASE'])
